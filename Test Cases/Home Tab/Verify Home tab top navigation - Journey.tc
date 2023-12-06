@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Home tab top navigation - Journey</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77922fb2-3ca4-44c2-be04-c9871bd2a201</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6a73c067-2f26-4a5d-b5a9-c403f4da5174</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'You may also like'</defaultValue>
+      <description></description>
+      <id>6a73c067-2f26-4a5d-b5a9-c403f4da5174</id>
+      <masked>false</masked>
+      <name>txt_maylike</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login with wrong username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce57c8a9-950c-464c-8ae9-f80d0333016b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54401469-087a-4bd9-85d7-b3e06e2467cc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wejiuy7@87'</defaultValue>
+      <description></description>
+      <id>54401469-087a-4bd9-85d7-b3e06e2467cc</id>
+      <masked>false</masked>
+      <name>wrongusername</name>
+   </variable>
+</TestCaseEntity>

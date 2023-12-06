@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests for Home Tab" time="203.531" tests="3" failures="0" errors="0">
+   <testsuite name="Smoke Tests for Home Tab" tests="3" failures="0" errors="0" time="203.531" skipped="0" timestamp="2023-11-29 11:40:33" hostname="rohitkrishna - ip-192-168-1-8.us-west-2.compute.internal" id="Test Suites/Living/Smoke Tests for Home Tab">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231129_114026/Living/Smoke Tests for Home Tab/20231129_114026"/>
+         <property name="logFiles" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231129_114026/Living/Smoke Tests for Home Tab/20231129_114026/execution0.log, /Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231129_114026/Living/Smoke Tests for Home Tab/20231129_114026/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rohitkrishna - ip-192-168-1-8.us-west-2.compute.internal"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Home Tab/Verify Home tab top navigation - Favourate" time="65.143" classname="Test Cases/Home Tab/Verify Home tab top navigation - Favourate" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:40:34 - [TEST_CASE][PASSED] - Test Cases/Home Tab/Verify Home tab top navigation - Favourate: Test Cases/Home Tab/Verify Home tab top navigation - Favourate
+
+2023-11-29 11:40:34 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T1010"): Test Case to execute - LIVING-T1010
+
+2023-11-29 11:40:34 - [MESSAGE][INFO] - Test Case to execute - LIVING-T1010
+
+2023-11-29 11:40:34 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-29 11:40:34 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-29 11:40:34 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-29 11:40:35 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-29 11:40:37 - [MESSAGE][INFO] - Appium server started on port 54,491
+
+2023-11-29 11:40:57 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-29 11:40:57 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-29 11:40:57 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-29 11:40:57 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-29 11:40:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-29 11:41:09 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-29 11:41:09 - [TEST_STEP][PASSED] - living.Elements.loginuser(G_memberusername, G_memberpassword): living.Elements.loginuser is PASSED
+
+2023-11-29 11:41:09 - [MESSAGE][INFO] - Login process started......
+
+2023-11-29 11:41:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:41:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-29 11:41:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:41:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-29 11:41:12 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-29 11:41:13 - [MESSAGE][PASSED] - Send keys 'Welcome@123' on test object 'Object Repository/Living/input userpassword' successfully.
+
+2023-11-29 11:41:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:41:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Login'
+
+2023-11-29 11:41:14 - [MESSAGE][INFO] - Login process finished......
+
+2023-11-29 11:41:14 - [MESSAGE][PASSED] - living.Elements.loginuser is PASSED
+
+2023-11-29 11:41:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), G_longtimeout): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-29 11:41:26 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-29 11:41:26 - [TEST_STEP][PASSED] - tap(findTestObject("Living/Home Tab/Favorate Icon - Top"), 0): Tapped on element 'Object Repository/Living/Home Tab/Favorate Icon - Top'
+
+2023-11-29 11:41:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:41:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/Home Tab/Favorate Icon - Top'
+
+2023-11-29 11:41:26 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-29 11:41:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-29 11:41:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/Me Tab/lbl My Profile"), G_longtimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-29 11:41:32 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-29 11:41:32 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-29 11:41:32 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-29 11:41:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Living/Me Tab/lbl My Profile"), G_minitimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-29 11:41:32 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-29 11:41:32 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-29 11:41:32 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-29 11:41:32 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-29 11:41:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-29 11:41:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-29 11:41:39 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-29 11:41:39 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-29 11:41:39 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Tab/Verify Home Tab Elements" time="68.964" classname="Test Cases/Home Tab/Verify Home Tab Elements" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:41:39 - [TEST_CASE][PASSED] - Test Cases/Home Tab/Verify Home Tab Elements: Test Cases/Home Tab/Verify Home Tab Elements
+
+2023-11-29 11:41:40 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2010"): Test Case to execute - LIVING-T2010
+
+2023-11-29 11:41:40 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2010
+
+2023-11-29 11:41:40 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-29 11:41:40 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-29 11:41:40 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-29 11:41:40 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-29 11:41:43 - [MESSAGE][INFO] - Appium server started on port 54,804
+
+2023-11-29 11:42:01 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-29 11:42:01 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-29 11:42:01 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-29 11:42:01 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-29 11:42:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-29 11:42:16 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-29 11:42:16 - [TEST_STEP][PASSED] - living.Elements.loginuser(G_memberusername, G_memberpassword): living.Elements.loginuser is PASSED
+
+2023-11-29 11:42:16 - [MESSAGE][INFO] - Login process started......
+
+2023-11-29 11:42:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:42:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-29 11:42:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:42:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-29 11:42:20 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-29 11:42:21 - [MESSAGE][PASSED] - Send keys 'Welcome@123' on test object 'Object Repository/Living/input userpassword' successfully.
+
+2023-11-29 11:42:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:42:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Login'
+
+2023-11-29 11:42:22 - [MESSAGE][INFO] - Login process finished......
+
+2023-11-29 11:42:22 - [MESSAGE][PASSED] - living.Elements.loginuser is PASSED
+
+2023-11-29 11:42:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), G_longtimeout): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-29 11:42:33 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-29 11:42:33 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-29 11:42:33 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-29 11:42:33 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Top Section - Affirmation"), G_minitimeout): Element 'Object Repository/Living/Home Tab/Top Section - Affirmation' is exist
+
+2023-11-29 11:42:35 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Top Section - Affirmation' is exist
+
+2023-11-29 11:42:35 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Wellbeing Section"), G_minitimeout): Element 'Object Repository/Living/Home Tab/Wellbeing Section' is exist
+
+2023-11-29 11:42:37 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Wellbeing Section' is exist
+
+2023-11-29 11:42:37 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Check In Tab"), G_minitimeout): Element 'Object Repository/Living/Home Tab/Check In Tab' is exist
+
+2023-11-29 11:42:38 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Check In Tab' is exist
+
+2023-11-29 11:42:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Timer Tab"), G_minitimeout): Element 'Object Repository/Living/Home Tab/Timer Tab' is exist
+
+2023-11-29 11:42:38 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Timer Tab' is exist
+
+2023-11-29 11:42:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Downloads Tab"), G_minitimeout): Element 'Object Repository/Living/Home Tab/Downloads Tab' is exist
+
+2023-11-29 11:42:38 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Downloads Tab' is exist
+
+2023-11-29 11:42:38 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Favorites Tab"), G_minitimeout): Element 'Object Repository/Living/Home Tab/Favorites Tab' is exist
+
+2023-11-29 11:42:39 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Favorites Tab' is exist
+
+2023-11-29 11:42:39 - [TEST_STEP][PASSED] - comment("Trying to scroll till Like section reached............"): Trying to scroll till Like section reached............
+
+2023-11-29 11:42:39 - [MESSAGE][INFO] - Trying to scroll till Like section reached............
+
+2023-11-29 11:42:39 - [TEST_STEP][PASSED] - scrollToText(txt_maylike, CONTINUE_ON_FAILURE): Scrolling to text 'You may also like' successfully
+
+2023-11-29 11:42:46 - [MESSAGE][PASSED] - Scrolling to text 'You may also like' successfully
+
+2023-11-29 11:42:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Meditation Tab"), 0): Element 'Object Repository/Living/Home Tab/Meditation Tab' is exist
+
+2023-11-29 11:42:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:42:46 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Meditation Tab' is exist
+
+2023-11-29 11:42:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Music Tab"), 0): Element 'Object Repository/Living/Home Tab/Music Tab' is exist
+
+2023-11-29 11:42:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:42:46 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Music Tab' is exist
+
+2023-11-29 11:42:46 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Living/Home Tab/Food Tab"), 0): Element 'Object Repository/Living/Home Tab/Food Tab' is exist
+
+2023-11-29 11:42:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:42:47 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/Food Tab' is exist
+
+2023-11-29 11:42:47 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-29 11:42:47 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-29 11:42:47 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-29 11:42:48 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-29 11:42:48 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-29 11:42:48 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Tab/Verify Home tab top navigation - Journey" time="68.73" classname="Test Cases/Home Tab/Verify Home tab top navigation - Journey" status="PASSED">
+         <system-out><![CDATA[2023-11-29 11:42:48 - [TEST_CASE][PASSED] - Test Cases/Home Tab/Verify Home tab top navigation - Journey: Test Cases/Home Tab/Verify Home tab top navigation - Journey
+
+2023-11-29 11:42:48 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2110"): Test Case to execute - LIVING-T2110
+
+2023-11-29 11:42:48 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2110
+
+2023-11-29 11:42:49 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-29 11:42:49 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-29 11:42:49 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-29 11:42:49 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-29 11:42:51 - [MESSAGE][INFO] - Appium server started on port 55,160
+
+2023-11-29 11:43:07 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-29 11:43:07 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-29 11:43:07 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-29 11:43:07 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-29 11:43:07 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-29 11:43:22 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-29 11:43:22 - [TEST_STEP][PASSED] - living.Elements.loginuser(G_memberusername, G_memberpassword): living.Elements.loginuser is PASSED
+
+2023-11-29 11:43:22 - [MESSAGE][INFO] - Login process started......
+
+2023-11-29 11:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:43:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-29 11:43:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:43:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-29 11:43:25 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-29 11:43:26 - [MESSAGE][PASSED] - Send keys 'Welcome@123' on test object 'Object Repository/Living/input userpassword' successfully.
+
+2023-11-29 11:43:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:43:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Login'
+
+2023-11-29 11:43:27 - [MESSAGE][INFO] - Login process finished......
+
+2023-11-29 11:43:27 - [MESSAGE][PASSED] - living.Elements.loginuser is PASSED
+
+2023-11-29 11:43:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), G_longtimeout): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-29 11:43:39 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-29 11:43:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Living/Home Tab/Journey Icon - Top"), 0): Tapped on element 'Object Repository/Living/Home Tab/Journey Icon - Top'
+
+2023-11-29 11:43:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-29 11:43:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/Home Tab/Journey Icon - Top'
+
+2023-11-29 11:43:41 - [TEST_STEP][PASSED] - delay(G_minitimeout): Delayed 2 second(s)
+
+2023-11-29 11:43:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-29 11:43:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/Me Tab/lbl My Profile"), G_longtimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-29 11:43:50 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-29 11:43:50 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-29 11:43:50 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-29 11:43:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Living/Me Tab/lbl My Profile"), G_minitimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-29 11:43:51 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-29 11:43:51 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-29 11:43:51 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-29 11:43:51 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-29 11:43:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-29 11:43:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-29 11:43:57 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-29 11:43:57 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-29 11:43:57 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-29 11:40:33 - [TEST_SUITE][PASSED] - Smoke Tests for Home Tab: Test Cases/Home Tab/Verify Home tab top navigation - Journey]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

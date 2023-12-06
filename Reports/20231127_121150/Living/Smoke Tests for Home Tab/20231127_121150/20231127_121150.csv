@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Home Tab,,,,2023-11-27 12:11:57,2023-11-27 12:14:38,2m - 40.610s,FAILED
+,,,,,,,
+Test Cases/Home Tab/Verify Home tab top navigation - Favourate,,,,2023-11-27 12:11:58,2023-11-27 12:13:25,1m - 27.177s,FAILED
+"comment(""Test Case to execute - LIVING-T1010"")",,,,2023-11-27 12:11:58,2023-11-27 12:11:58,0.057s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 12:11:58,2023-11-27 12:11:58,0.006s,PASSED
+living.Common.startApplication(),,,,2023-11-27 12:11:58,2023-11-27 12:12:18,20.577s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 12:12:18,2023-11-27 12:12:18,0.007s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 12:12:18,2023-11-27 12:12:30,11.910s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 12:12:30,2023-11-27 12:12:34,3.915s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-11-27 12:12:34,2023-11-27 12:12:44,9.605s,PASSED
+"tap(findTestObject(""Living/Home Tab/Favorate Icon - Top""), 0)",,,,2023-11-27 12:12:44,2023-11-27 12:12:45,1.354s,PASSED
+"waitForElementPresent(findTestObject(""Living/Me Tab/lbl My Profile""), G_longtimeout)",,,,2023-11-27 12:12:45,2023-11-27 12:12:53,7.826s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 12:12:53,2023-11-27 12:12:53,0.004s,PASSED
+"verifyElementVisible(findTestObject(""Living/Me Tab/lbl My Profile""), 0)",,,,2023-11-27 12:12:53,2023-11-27 12:12:53,0.336s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 12:12:53,2023-11-27 12:12:53,0.004s,PASSED
+living.Elements.logoutuser(),,,,2023-11-27 12:12:53,2023-11-27 12:13:25,31.336s,FAILED
+,,,,,,,
+Test Cases/Home Tab/Verify Home tab top navigation - Journey,,,,2023-11-27 12:13:25,2023-11-27 12:14:38,1m - 13.104s,FAILED
+"comment(""Test Case to execute - LIVING-T1010"")",,,,2023-11-27 12:13:25,2023-11-27 12:13:25,0.004s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 12:13:25,2023-11-27 12:13:25,0.004s,PASSED
+living.Common.startApplication(),,,,2023-11-27 12:13:25,2023-11-27 12:13:37,11.988s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 12:13:37,2023-11-27 12:13:37,0.008s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 12:13:37,2023-11-27 12:14:07,30.099s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 12:14:07,2023-11-27 12:14:38,30.911s,FAILED

@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Home Tab,,,,2023-11-27 14:52:38,2023-11-27 14:56:34,3m - 55.851s,PASSED
+,,,,,,,
+Test Cases/Home Tab/Verify Home tab top navigation - Favourate,,,,2023-11-27 14:52:38,2023-11-27 14:53:55,1m - 16.195s,PASSED
+"comment(""Test Case to execute - LIVING-T1010"")",,,,2023-11-27 14:52:39,2023-11-27 14:52:39,0.022s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 14:52:39,2023-11-27 14:52:39,0.006s,PASSED
+living.Common.startApplication(),,,,2023-11-27 14:52:39,2023-11-27 14:52:57,18.696s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 14:52:57,2023-11-27 14:52:57,0.007s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 14:52:57,2023-11-27 14:53:09,11.748s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 14:53:09,2023-11-27 14:53:14,4.653s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-11-27 14:53:14,2023-11-27 14:53:28,13.968s,PASSED
+"tap(findTestObject(""Living/Home Tab/Favorate Icon - Top""), 0)",,,,2023-11-27 14:53:28,2023-11-27 14:53:29,1.234s,PASSED
+"waitForElementPresent(findTestObject(""Living/Me Tab/lbl My Profile""), G_longtimeout)",,,,2023-11-27 14:53:29,2023-11-27 14:53:34,4.909s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 14:53:34,2023-11-27 14:53:34,0.004s,PASSED
+"verifyElementVisible(findTestObject(""Living/Me Tab/lbl My Profile""), 0)",,,,2023-11-27 14:53:34,2023-11-27 14:53:34,0.263s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 14:53:34,2023-11-27 14:53:34,0.006s,PASSED
+delay(G_shorttimeout),,,,2023-11-27 14:53:34,2023-11-27 14:53:39,5.024s,PASSED
+living.Elements.logoutuser(),,,,2023-11-27 14:53:39,2023-11-27 14:53:53,14.279s,PASSED
+closeApplication(),,,,2023-11-27 14:53:53,2023-11-27 14:53:55,1.189s,PASSED
+Start tear down : tearDownTestCase,,,,2023-11-27 14:53:55,2023-11-27 14:53:55,0.003s,PASSED
+,,,,,,,
+Test Cases/Home Tab/Verify Home Tab Elements,,,,2023-11-27 14:53:55,2023-11-27 14:55:12,1m - 17.318s,PASSED
+"comment(""Test Case to execute - LIVING-T2010"")",,,,2023-11-27 14:53:55,2023-11-27 14:53:55,0.008s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 14:53:55,2023-11-27 14:53:55,0.005s,PASSED
+living.Common.startApplication(),,,,2023-11-27 14:53:55,2023-11-27 14:54:10,15.366s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 14:54:10,2023-11-27 14:54:10,0.004s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 14:54:10,2023-11-27 14:54:24,14.066s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 14:54:24,2023-11-27 14:54:29,4.528s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-11-27 14:54:29,2023-11-27 14:54:40,10.807s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 14:54:40,2023-11-27 14:54:40,0.007s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Top Section - Affirmation""), 0)",,,,2023-11-27 14:54:40,2023-11-27 14:54:41,1.238s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Wellbeing Section""), 0)",,,,2023-11-27 14:54:41,2023-11-27 14:54:42,1.505s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Check In Tab""), 0)",,,,2023-11-27 14:54:42,2023-11-27 14:54:44,1.203s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Timer Tab""), 0)",,,,2023-11-27 14:54:44,2023-11-27 14:54:44,0.240s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Downloads Tab""), 0)",,,,2023-11-27 14:54:44,2023-11-27 14:54:44,0.217s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Favorites Tab""), 0)",,,,2023-11-27 14:54:44,2023-11-27 14:54:44,0.206s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Morning Feeds""), 0)",,,,2023-11-27 14:54:44,2023-11-27 14:54:44,0.247s,PASSED
+"comment(""Trying to scroll till Like section reached............"")",,,,2023-11-27 14:54:44,2023-11-27 14:54:44,0.004s,PASSED
+"scrollToText(txt_maylike, STOP_ON_FAILURE)",,,,2023-11-27 14:54:44,2023-11-27 14:54:50,5.889s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Afternoon Feeds""), 0)",,,,2023-11-27 14:54:50,2023-11-27 14:54:51,0.308s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Evening Feeds""), 0)",,,,2023-11-27 14:54:51,2023-11-27 14:54:51,0.233s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Meditation Tab""), 0)",,,,2023-11-27 14:54:51,2023-11-27 14:54:51,0.181s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Music Tab""), 0)",,,,2023-11-27 14:54:51,2023-11-27 14:54:51,0.188s,PASSED
+"verifyElementExist(findTestObject(""Living/Home Tab/Food Tab""), 0)",,,,2023-11-27 14:54:51,2023-11-27 14:54:51,0.194s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 14:54:51,2023-11-27 14:54:51,0.003s,PASSED
+"tap(findTestObject(""Living/Home Tab/tabMe""), 0)",,,,2023-11-27 14:54:51,2023-11-27 14:54:52,0.271s,PASSED
+living.Elements.logoutuser(),,,,2023-11-27 14:54:52,2023-11-27 14:55:10,18.569s,PASSED
+closeApplication(),,,,2023-11-27 14:55:10,2023-11-27 14:55:12,1.591s,PASSED
+Start tear down : tearDownTestCase,,,,2023-11-27 14:55:12,2023-11-27 14:55:12,0.002s,PASSED
+,,,,,,,
+Test Cases/Home Tab/Verify Home tab top navigation - Journey,,,,2023-11-27 14:55:12,2023-11-27 14:56:34,1m - 21.735s,PASSED
+"comment(""Test Case to execute - LIVING-T2110"")",,,,2023-11-27 14:55:12,2023-11-27 14:55:12,0.006s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 14:55:12,2023-11-27 14:55:12,0.006s,PASSED
+living.Common.startApplication(),,,,2023-11-27 14:55:12,2023-11-27 14:55:30,18.267s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 14:55:30,2023-11-27 14:55:30,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 14:55:30,2023-11-27 14:55:49,18.541s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 14:55:49,2023-11-27 14:55:55,5.828s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-11-27 14:55:55,2023-11-27 14:56:06,11.192s,PASSED
+"tap(findTestObject(""Object Repository/Living/Home Tab/Journey Icon - Top""), 0)",,,,2023-11-27 14:56:06,2023-11-27 14:56:07,1.217s,PASSED
+"waitForElementPresent(findTestObject(""Living/Me Tab/lbl My Profile""), G_longtimeout)",,,,2023-11-27 14:56:07,2023-11-27 14:56:13,6.099s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 14:56:13,2023-11-27 14:56:13,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Living/Me Tab/lbl My Profile""), 0)",,,,2023-11-27 14:56:13,2023-11-27 14:56:14,0.223s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 14:56:14,2023-11-27 14:56:14,0.002s,PASSED
+delay(G_shorttimeout),,,,2023-11-27 14:56:14,2023-11-27 14:56:19,5.004s,PASSED
+living.Elements.logoutuser(),,,,2023-11-27 14:56:19,2023-11-27 14:56:32,13.783s,PASSED
+closeApplication(),,,,2023-11-27 14:56:32,2023-11-27 14:56:34,1.289s,PASSED
+Start tear down : tearDownTestCase,,,,2023-11-27 14:56:34,2023-11-27 14:56:34,0.002s,PASSED

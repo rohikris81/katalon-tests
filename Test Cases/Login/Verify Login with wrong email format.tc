@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login with wrong email format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d9f0d657-a16e-44c8-9698-86bcc4549792</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9adddf48-6a9e-4a12-8717-0ec44d5c396e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'riuhf@com'</defaultValue>
+      <description></description>
+      <id>9adddf48-6a9e-4a12-8717-0ec44d5c396e</id>
+      <masked>false</masked>
+      <name>wrongemailformat</name>
+   </variable>
+</TestCaseEntity>

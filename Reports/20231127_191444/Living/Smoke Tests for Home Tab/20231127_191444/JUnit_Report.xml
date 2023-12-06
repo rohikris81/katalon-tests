@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests for Home Tab" time="204.239" tests="3" failures="1" errors="0">
+   <testsuite name="Smoke Tests for Home Tab" tests="3" failures="1" errors="0" time="204.239" skipped="0" timestamp="2023-11-27 19:14:50" hostname="rohitkrishna - localhost" id="Test Suites/Living/Smoke Tests for Home Tab">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_191444/Living/Smoke Tests for Home Tab/20231127_191444"/>
+         <property name="logFiles" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_191444/Living/Smoke Tests for Home Tab/20231127_191444/execution0.log, /Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_191444/Living/Smoke Tests for Home Tab/20231127_191444/appium.log"/>
+         <property name="attachments" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_191444/Living/Smoke Tests for Home Tab/20231127_191444/1701092831918.png"/>
+         <property name="hostName" value="rohitkrishna - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Home Tab/Verify Home tab top navigation - Favourate" time="61.664" classname="Test Cases/Home Tab/Verify Home tab top navigation - Favourate" status="PASSED">
+         <system-out><![CDATA[2023-11-27 19:14:51 - [TEST_CASE][PASSED] - Test Cases/Home Tab/Verify Home tab top navigation - Favourate: Test Cases/Home Tab/Verify Home tab top navigation - Favourate
+
+2023-11-27 19:14:51 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T1010"): Test Case to execute - LIVING-T1010
+
+2023-11-27 19:14:51 - [MESSAGE][INFO] - Test Case to execute - LIVING-T1010
+
+2023-11-27 19:14:51 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 19:14:51 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 19:14:51 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 19:14:52 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 19:14:53 - [MESSAGE][INFO] - Appium server started on port 53,785
+
+2023-11-27 19:15:10 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 19:15:10 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 19:15:10 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 19:15:10 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 19:15:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 19:15:22 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 19:15:22 - [TEST_STEP][PASSED] - living.Elements.loginuser(G_memberusername, G_memberpassword): living.Elements.loginuser is PASSED
+
+2023-11-27 19:15:22 - [MESSAGE][INFO] - Login process started......
+
+2023-11-27 19:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:15:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 19:15:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:15:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-27 19:15:27 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-27 19:15:28 - [MESSAGE][PASSED] - Send keys 'Welcome@123' on test object 'Object Repository/Living/input userpassword' successfully.
+
+2023-11-27 19:15:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:15:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Login'
+
+2023-11-27 19:15:29 - [MESSAGE][INFO] - Login process finished......
+
+2023-11-27 19:15:29 - [MESSAGE][PASSED] - living.Elements.loginuser is PASSED
+
+2023-11-27 19:15:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), G_longtimeout): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-27 19:15:39 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-27 19:15:39 - [TEST_STEP][PASSED] - tap(findTestObject("Living/Home Tab/Favorate Icon - Top"), 0): Tapped on element 'Object Repository/Living/Home Tab/Favorate Icon - Top'
+
+2023-11-27 19:15:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:15:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/Home Tab/Favorate Icon - Top'
+
+2023-11-27 19:15:40 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 19:15:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 19:15:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/Me Tab/lbl My Profile"), G_longtimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-27 19:15:46 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-27 19:15:46 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-27 19:15:46 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-27 19:15:46 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Living/Me Tab/lbl My Profile"), G_minitimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-27 19:15:46 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-27 19:15:46 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-27 19:15:46 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-27 19:15:46 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 19:15:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 19:15:51 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-27 19:15:53 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 19:15:53 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 19:15:53 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Tab/Verify Home Tab Elements" time="79.24" classname="Test Cases/Home Tab/Verify Home Tab Elements" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Home Tab/Verify Home Tab Elements FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Living/btn Get Started not found&#xa;	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)&#xa;	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)&#xa;	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)&#xa;	at living.Elements.loginuser(Elements.groovy:63)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)&#xa;	at Verify Home Tab Elements.run(Verify Home Tab Elements:32)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)&#xa;	at TempTestSuite1701092684135.run(TempTestSuite1701092684135.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[2023-11-27 19:15:53 - [TEST_CASE][FAILED] - Test Cases/Home Tab/Verify Home Tab Elements: Test Cases/Home Tab/Verify Home Tab Elements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Living/btn Get Started not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at living.Elements.loginuser(Elements.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Verify Home Tab Elements.run(Verify Home Tab Elements:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701092684135.run(TempTestSuite1701092684135.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+2023-11-27 19:15:53 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2010"): Test Case to execute - LIVING-T2010
+
+2023-11-27 19:15:53 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2010
+
+2023-11-27 19:15:53 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 19:15:53 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 19:15:53 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 19:15:54 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 19:15:55 - [MESSAGE][INFO] - Appium server started on port 54,097
+
+2023-11-27 19:16:11 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 19:16:11 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 19:16:11 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 19:16:11 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 19:16:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Object Object Repository/Living/btn Get Started not found
+
+2023-11-27 19:16:41 - [MESSAGE][WARNING] - Object Object Repository/Living/btn Get Started not found
+
+2023-11-27 19:16:41 - [TEST_STEP][FAILED] - living.Elements.loginuser(G_memberusername, G_memberpassword): Object Object Repository/Living/btn Get Started not found
+
+2023-11-27 19:16:41 - [MESSAGE][INFO] - Login process started......
+
+2023-11-27 19:16:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:17:11 - [MESSAGE][FAILED] - Object Object Repository/Living/btn Get Started not found
+
+2023-11-27 19:17:12 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Living/btn Get Started' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Living/btn Get Started not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at living.Elements.loginuser(Elements.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Verify Home Tab Elements.run(Verify Home Tab Elements:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701092684135.run(TempTestSuite1701092684135.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_191444/Living/Smoke Tests for Home Tab/20231127_191444/1701092831918.png]]
+
+2023-11-27 19:17:12 - [MESSAGE][FAILED] - Object Object Repository/Living/btn Get Started not found
+
+2023-11-27 19:17:12 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 19:17:12 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[2023-11-27 19:15:53 - [TEST_CASE][FAILED] - Test Cases/Home Tab/Verify Home Tab Elements: Test Cases/Home Tab/Verify Home Tab Elements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Living/btn Get Started not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at living.Elements.loginuser(Elements.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Verify Home Tab Elements.run(Verify Home Tab Elements:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701092684135.run(TempTestSuite1701092684135.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home Tab/Verify Home tab top navigation - Journey" time="62.809" classname="Test Cases/Home Tab/Verify Home tab top navigation - Journey" status="PASSED">
+         <system-out><![CDATA[2023-11-27 19:17:12 - [TEST_CASE][PASSED] - Test Cases/Home Tab/Verify Home tab top navigation - Journey: Test Cases/Home Tab/Verify Home tab top navigation - Journey
+
+2023-11-27 19:17:12 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2110"): Test Case to execute - LIVING-T2110
+
+2023-11-27 19:17:12 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2110
+
+2023-11-27 19:17:12 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 19:17:12 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 19:17:12 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 19:17:25 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 19:17:25 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 19:17:25 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 19:17:25 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 19:17:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 19:17:39 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 19:17:39 - [TEST_STEP][PASSED] - living.Elements.loginuser(G_memberusername, G_memberpassword): living.Elements.loginuser is PASSED
+
+2023-11-27 19:17:39 - [MESSAGE][INFO] - Login process started......
+
+2023-11-27 19:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:17:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 19:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:17:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-27 19:17:41 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-27 19:17:42 - [MESSAGE][PASSED] - Send keys 'Welcome@123' on test object 'Object Repository/Living/input userpassword' successfully.
+
+2023-11-27 19:17:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:17:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Login'
+
+2023-11-27 19:17:43 - [MESSAGE][INFO] - Login process finished......
+
+2023-11-27 19:17:43 - [MESSAGE][PASSED] - living.Elements.loginuser is PASSED
+
+2023-11-27 19:17:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), G_longtimeout): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-27 19:17:59 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-27 19:17:59 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Living/Home Tab/Journey Icon - Top"), 0): Tapped on element 'Object Repository/Living/Home Tab/Journey Icon - Top'
+
+2023-11-27 19:17:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 19:18:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/Home Tab/Journey Icon - Top'
+
+2023-11-27 19:18:00 - [TEST_STEP][PASSED] - delay(G_minitimeout): Delayed 2 second(s)
+
+2023-11-27 19:18:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2023-11-27 19:18:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/Me Tab/lbl My Profile"), G_longtimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-27 19:18:08 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is present
+
+2023-11-27 19:18:08 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-27 19:18:08 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-27 19:18:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Living/Me Tab/lbl My Profile"), G_minitimeout): Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-27 19:18:08 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Me Tab/lbl My Profile' is visible
+
+2023-11-27 19:18:08 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-27 19:18:08 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-27 19:18:08 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 19:18:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 19:18:13 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-27 19:18:15 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 19:18:15 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 19:18:15 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 19:14:50 - [TEST_SUITE][FAILED] - Smoke Tests for Home Tab: Test Cases/Home Tab/Verify Home Tab Elements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Living/btn Get Started not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at living.Elements.loginuser(Elements.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Verify Home Tab Elements.run(Verify Home Tab Elements:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701092684135.run(TempTestSuite1701092684135.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[2023-11-27 19:14:50 - [TEST_SUITE][FAILED] - Smoke Tests for Home Tab: Test Cases/Home Tab/Verify Home Tab Elements FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/Living/btn Get Started not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:51)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:84)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1490)
+	at living.Elements.loginuser(Elements.groovy:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:55)
+	at Verify Home Tab Elements.run(Verify Home Tab Elements:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701092684135.run(TempTestSuite1701092684135.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

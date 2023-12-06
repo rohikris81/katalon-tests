@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Onboarrding,,,,2023-11-27 18:39:19,2023-11-27 18:40:35,1m - 15.121s,ERROR
+,,,,,,,
+Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements,,,,2023-11-27 18:39:20,2023-11-27 18:39:58,38.365s,PASSED
+"comment(""Test Case to execute - LIVING-T2001"")",,,,2023-11-27 18:39:20,2023-11-27 18:39:20,0.020s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 18:39:20,2023-11-27 18:39:20,0.005s,PASSED
+living.Common.startApplication(),,,,2023-11-27 18:39:20,2023-11-27 18:39:39,18.698s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 18:39:39,2023-11-27 18:39:39,0.006s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 18:39:39,2023-11-27 18:39:50,11.326s,PASSED
+"tap(findTestObject(""Living/btn Get Started""), 0)",,,,2023-11-27 18:39:50,2023-11-27 18:39:50,0.186s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 18:39:50,2023-11-27 18:39:50,0.009s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Onboarding/txt name""), 0)",,,,2023-11-27 18:39:50,2023-11-27 18:39:52,1.335s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Onboarding/checkbox term One""), 0)",,,,2023-11-27 18:39:52,2023-11-27 18:39:52,0.155s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Onboarding/checkbox term two""), 0)",,,,2023-11-27 18:39:52,2023-11-27 18:39:52,0.144s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Onboarding/btn Sign Up""), 0)",,,,2023-11-27 18:39:52,2023-11-27 18:39:52,0.140s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Living/Onboarding/btn Sign Up""), ""enabled"", ""false"", G_shorttimeout)",,,,2023-11-27 18:39:52,2023-11-27 18:39:52,0.159s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 18:39:52,2023-11-27 18:39:52,0.003s,PASSED
+closeApplication(),,,,2023-11-27 18:39:52,2023-11-27 18:39:53,1.007s,PASSED
+Start tear down : tearDownTestCase,,,,2023-11-27 18:39:53,2023-11-27 18:39:58,5.019s,PASSED
+,,,,,,,
+Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email,,,,2023-11-27 18:39:58,2023-11-27 18:40:35,36.192s,ERROR
+"comment(""Test Case No. - LIVING-T1000"")",,,,2023-11-27 18:39:58,2023-11-27 18:39:58,0.003s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 18:39:58,2023-11-27 18:39:58,0.004s,PASSED
+living.Common.startApplication(),,,,2023-11-27 18:39:58,2023-11-27 18:40:13,14.868s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 18:40:13,2023-11-27 18:40:13,0.007s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 18:40:13,2023-11-27 18:40:26,12.706s,PASSED
+"tap(findTestObject(""Living/btn Get Started""), 0)",,,,2023-11-27 18:40:26,2023-11-27 18:40:26,0.312s,PASSED
+"waitForElementPresent(findTestObject(""Living/Onboarding/txt name""), G_longtimeout)",,,,2023-11-27 18:40:26,2023-11-27 18:40:29,2.212s,PASSED
+"sendKeys(findTestObject(""Living/Onboarding/txt name""), ""AutoUser"")",,,,2023-11-27 18:40:29,2023-11-27 18:40:29,0.848s,PASSED
+"sendKeys(findTestObject(""Object Repository/Living/Onboarding/txt Email Address""), living.Common.generaterandomn())",,,,2023-11-27 18:40:29,2023-11-27 18:40:29,0.073s,ERROR
+Start tear down : tearDownTestCase,,,,2023-11-27 18:40:30,2023-11-27 18:40:35,5.017s,PASSED

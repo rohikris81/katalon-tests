@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Login/Verify Login with correct credentials - Email","testCaseId":"Test Cases/Login/Verify Login with correct credentials - Email","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Verify Login with wrong username","testCaseId":"Test Cases/Login/Verify Login with wrong username","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Verify Login with wrong password","testCaseId":"Test Cases/Login/Verify Login with wrong password","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Verify Login with wrong email format","testCaseId":"Test Cases/Login/Verify Login with wrong email format","iterationVariableName":""}

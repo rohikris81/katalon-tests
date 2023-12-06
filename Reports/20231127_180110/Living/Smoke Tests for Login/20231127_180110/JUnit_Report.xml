@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests for Login" time="190.988" tests="5" failures="0" errors="3">
+   <testsuite name="Smoke Tests for Login" tests="5" failures="0" errors="3" time="190.988" skipped="0" timestamp="2023-11-27 18:01:17" hostname="rohitkrishna - localhost" id="Test Suites/Living/Smoke Tests for Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_180110/Living/Smoke Tests for Login/20231127_180110"/>
+         <property name="logFiles" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_180110/Living/Smoke Tests for Login/20231127_180110/execution0.log, /Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_180110/Living/Smoke Tests for Login/20231127_180110/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rohitkrishna - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Login/Verify Forgot Password" time="45.402" classname="Test Cases/Login/Verify Forgot Password" status="PASSED">
+         <system-out><![CDATA[2023-11-27 18:01:18 - [TEST_CASE][PASSED] - Test Cases/Login/Verify Forgot Password: Test Cases/Login/Verify Forgot Password
+
+2023-11-27 18:01:18 - [TEST_STEP][PASSED] - comment("Test Case No. - LIVING-T1008"): Test Case No. - LIVING-T1008
+
+2023-11-27 18:01:18 - [MESSAGE][INFO] - Test Case No. - LIVING-T1008
+
+2023-11-27 18:01:18 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:01:18 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:01:18 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:01:19 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 18:01:20 - [MESSAGE][INFO] - Appium server started on port 54,318
+
+2023-11-27 18:01:37 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:01:37 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:01:37 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:01:37 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:01:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:01:49 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:01:49 - [TEST_STEP][PASSED] - tap(findTestObject("Living/btn Get Started"), 0): Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:01:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:01:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:01:49 - [TEST_STEP][PASSED] - tap(findTestObject("Living/link Login"), 0): Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-27 18:01:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:01:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-27 18:01:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Living/btn Forgot Password"), 0): Tapped on element 'Object Repository/Living/btn Forgot Password'
+
+2023-11-27 18:01:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:01:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Forgot Password'
+
+2023-11-27 18:01:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Living/input username"), G_memberusername): Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-27 18:01:52 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-27 18:01:52 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Living/btn Reset Password"), 0): Tapped on element 'Object Repository/Living/btn Reset Password'
+
+2023-11-27 18:01:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:01:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Reset Password'
+
+2023-11-27 18:01:53 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-27 18:01:53 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-27 18:01:53 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/btn Verify OTP"), 0): Element 'Object Repository/Living/btn Verify OTP' is exist
+
+2023-11-27 18:01:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:01:56 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Verify OTP' is exist
+
+2023-11-27 18:01:56 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/lbl Verification OTP Sent Confirmation"), 0): Element 'Object Repository/Living/lbl Verification OTP Sent Confirmation' is exist
+
+2023-11-27 18:01:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:01:56 - [MESSAGE][PASSED] - Element 'Object Repository/Living/lbl Verification OTP Sent Confirmation' is exist
+
+2023-11-27 18:01:56 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-27 18:01:56 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-27 18:01:56 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-27 18:01:58 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 18:01:58 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:01:58 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:02:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:02:03 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Verify Login with correct credentials - Email" time="51.164" classname="Test Cases/Login/Verify Login with correct credentials - Email" status="PASSED">
+         <system-out><![CDATA[2023-11-27 18:02:03 - [TEST_CASE][PASSED] - Test Cases/Login/Verify Login with correct credentials - Email: Test Cases/Login/Verify Login with correct credentials - Email
+
+2023-11-27 18:02:03 - [TEST_STEP][PASSED] - comment("Test Case No. - LIVING-T1004"): Test Case No. - LIVING-T1004
+
+2023-11-27 18:02:03 - [MESSAGE][INFO] - Test Case No. - LIVING-T1004
+
+2023-11-27 18:02:03 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:02:03 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:02:03 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:02:04 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 18:02:05 - [MESSAGE][INFO] - Appium server started on port 54,547
+
+2023-11-27 18:02:19 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:02:19 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:02:19 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:02:19 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:02:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:02:33 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:02:33 - [TEST_STEP][PASSED] - living.Elements.loginuser(G_memberusername, G_memberpassword): living.Elements.loginuser is PASSED
+
+2023-11-27 18:02:33 - [MESSAGE][INFO] - Login process started......
+
+2023-11-27 18:02:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:02:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:02:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:02:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/link Login'
+
+2023-11-27 18:02:36 - [MESSAGE][PASSED] - Send keys 'dancollbeta@yopmail.com' on test object 'Object Repository/Living/input username' successfully.
+
+2023-11-27 18:02:37 - [MESSAGE][PASSED] - Send keys 'Welcome@123' on test object 'Object Repository/Living/input userpassword' successfully.
+
+2023-11-27 18:02:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:02:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Login'
+
+2023-11-27 18:02:37 - [MESSAGE][INFO] - Login process finished......
+
+2023-11-27 18:02:37 - [MESSAGE][PASSED] - living.Elements.loginuser is PASSED
+
+2023-11-27 18:02:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), G_longtimeout): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-27 18:02:47 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is present
+
+2023-11-27 18:02:47 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-27 18:02:47 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-27 18:02:47 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/Home Tab/lbl - Today Activities"), 0): Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is exist
+
+2023-11-27 18:02:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:02:48 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Home Tab/lbl - Today Activities' is exist
+
+2023-11-27 18:02:48 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-27 18:02:48 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-27 18:02:48 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-27 18:02:49 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 18:02:49 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:02:49 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:02:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:02:54 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Verify Login with wrong email format" time="32.894" classname="Test Cases/Login/Verify Login with wrong email format" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/Verify Login with wrong email format FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]&#xa;"/>
+         <system-out><![CDATA[2023-11-27 18:02:54 - [TEST_CASE][ERROR] - Test Cases/Login/Verify Login with wrong email format: Test Cases/Login/Verify Login with wrong email format FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]
+
+
+2023-11-27 18:02:55 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2007"): Test Case to execute - LIVING-T2007
+
+2023-11-27 18:02:55 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2007
+
+2023-11-27 18:02:55 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:02:55 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:02:55 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:02:55 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 18:02:56 - [MESSAGE][INFO] - Appium server started on port 54,823
+
+2023-11-27 18:03:09 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:03:09 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:03:09 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:03:09 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:03:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:03:22 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:03:22 - [TEST_STEP][ERROR] - living.Common.loginuser(wrongemailformat, G_memberpassword): Test Cases/Login/Verify Login with wrong email format FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Login with wrong email format.run(Verify Login with wrong email format:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701088270966.run(TempTestSuite1701088270966.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]
+
+
+2023-11-27 18:03:22 - [MESSAGE][ERROR] - No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]
+
+2023-11-27 18:03:22 - [MESSAGE][ERROR] - Test Cases/Login/Verify Login with wrong email format FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Login with wrong email format.run(Verify Login with wrong email format:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701088270966.run(TempTestSuite1701088270966.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]
+
+
+2023-11-27 18:03:22 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:03:22 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:03:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:03:27 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[2023-11-27 18:02:54 - [TEST_CASE][ERROR] - Test Cases/Login/Verify Login with wrong email format: Test Cases/Login/Verify Login with wrong email format FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Verify Login with wrong password" time="30.651" classname="Test Cases/Login/Verify Login with wrong password" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/Verify Login with wrong password FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]&#xa;"/>
+         <system-out><![CDATA[2023-11-27 18:03:27 - [TEST_CASE][ERROR] - Test Cases/Login/Verify Login with wrong password: Test Cases/Login/Verify Login with wrong password FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]
+
+
+2023-11-27 18:03:27 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2007"): Test Case to execute - LIVING-T2007
+
+2023-11-27 18:03:27 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2007
+
+2023-11-27 18:03:27 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:03:27 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:03:27 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:03:41 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:03:41 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:03:41 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:03:41 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:03:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:03:53 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:03:53 - [TEST_STEP][ERROR] - living.Common.loginuser(G_memberusername, wrongpassword): Test Cases/Login/Verify Login with wrong password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Login with wrong password.run(Verify Login with wrong password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701088270966.run(TempTestSuite1701088270966.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]
+
+
+2023-11-27 18:03:53 - [MESSAGE][ERROR] - No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]
+
+2023-11-27 18:03:53 - [MESSAGE][ERROR] - Test Cases/Login/Verify Login with wrong password FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Login with wrong password.run(Verify Login with wrong password:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701088270966.run(TempTestSuite1701088270966.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]
+
+
+2023-11-27 18:03:53 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:03:53 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:03:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:03:58 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[2023-11-27 18:03:27 - [TEST_CASE][ERROR] - Test Cases/Login/Verify Login with wrong password: Test Cases/Login/Verify Login with wrong password FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [dancollbeta@yopmail.com, Wgjdon@987]]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/Verify Login with wrong username" time="30.306" classname="Test Cases/Login/Verify Login with wrong username" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/Verify Login with wrong username FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]&#xa;"/>
+         <system-out><![CDATA[2023-11-27 18:03:58 - [TEST_CASE][ERROR] - Test Cases/Login/Verify Login with wrong username: Test Cases/Login/Verify Login with wrong username FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]
+
+
+2023-11-27 18:03:58 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2007"): Test Case to execute - LIVING-T2007
+
+2023-11-27 18:03:58 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2007
+
+2023-11-27 18:03:58 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:03:58 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:03:58 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:04:11 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:04:11 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:04:11 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:04:11 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:04:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:04:23 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:04:23 - [TEST_STEP][ERROR] - living.Common.loginuser(wrongusername, G_memberpassword): Test Cases/Login/Verify Login with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Login with wrong username.run(Verify Login with wrong username:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701088270966.run(TempTestSuite1701088270966.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]
+
+
+2023-11-27 18:04:23 - [MESSAGE][ERROR] - No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]
+
+2023-11-27 18:04:23 - [MESSAGE][ERROR] - Test Cases/Login/Verify Login with wrong username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Login with wrong username.run(Verify Login with wrong username:32)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701088270966.run(TempTestSuite1701088270966.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]
+
+
+2023-11-27 18:04:23 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:04:23 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:04:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:04:28 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[2023-11-27 18:03:58 - [TEST_CASE][ERROR] - Test Cases/Login/Verify Login with wrong username: Test Cases/Login/Verify Login with wrong username FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [Wejiuy7@87, Welcome@123]]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 18:01:17 - [TEST_SUITE][ERROR] - Smoke Tests for Login: Test Cases/Login/Verify Login with wrong email format FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]]]></system-out>
+      <system-err><![CDATA[2023-11-27 18:01:17 - [TEST_SUITE][ERROR] - Smoke Tests for Login: Test Cases/Login/Verify Login with wrong email format FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.loginuser() is applicable for argument types: (String, String) values: [riuhf@com, Welcome@123]]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Home Tab,,,,2023-11-27 19:14:50,2023-11-27 19:18:15,3m - 24.239s,FAILED
+,,,,,,,
+Test Cases/Home Tab/Verify Home tab top navigation - Favourate,,,,2023-11-27 19:14:51,2023-11-27 19:15:53,1m - 1.664s,PASSED
+"comment(""Test Case to execute - LIVING-T1010"")",,,,2023-11-27 19:14:51,2023-11-27 19:14:51,0.023s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 19:14:51,2023-11-27 19:14:51,0.006s,PASSED
+living.Common.startApplication(),,,,2023-11-27 19:14:51,2023-11-27 19:15:10,19.256s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 19:15:10,2023-11-27 19:15:10,0.006s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 19:15:10,2023-11-27 19:15:22,11.877s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 19:15:22,2023-11-27 19:15:29,6.547s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-11-27 19:15:29,2023-11-27 19:15:39,10.495s,PASSED
+"tap(findTestObject(""Living/Home Tab/Favorate Icon - Top""), 0)",,,,2023-11-27 19:15:39,2023-11-27 19:15:40,1.069s,PASSED
+delay(G_shorttimeout),,,,2023-11-27 19:15:40,2023-11-27 19:15:45,5.027s,PASSED
+"waitForElementPresent(findTestObject(""Living/Me Tab/lbl My Profile""), G_longtimeout)",,,,2023-11-27 19:15:45,2023-11-27 19:15:46,0.265s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 19:15:46,2023-11-27 19:15:46,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Living/Me Tab/lbl My Profile""), G_minitimeout)",,,,2023-11-27 19:15:46,2023-11-27 19:15:46,0.228s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 19:15:46,2023-11-27 19:15:46,0.003s,PASSED
+delay(G_shorttimeout),,,,2023-11-27 19:15:46,2023-11-27 19:15:51,5.006s,PASSED
+closeApplication(),,,,2023-11-27 19:15:51,2023-11-27 19:15:53,1.668s,PASSED
+Start tear down : tearDownTestCase,,,,2023-11-27 19:15:53,2023-11-27 19:15:53,0.003s,PASSED
+,,,,,,,
+Test Cases/Home Tab/Verify Home Tab Elements,,,,2023-11-27 19:15:53,2023-11-27 19:17:12,1m - 19.240s,FAILED
+"comment(""Test Case to execute - LIVING-T2010"")",,,,2023-11-27 19:15:53,2023-11-27 19:15:53,0.005s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 19:15:53,2023-11-27 19:15:53,0.004s,PASSED
+living.Common.startApplication(),,,,2023-11-27 19:15:53,2023-11-27 19:16:11,18.300s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 19:16:11,2023-11-27 19:16:11,0.006s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 19:16:11,2023-11-27 19:16:41,30.144s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 19:16:41,2023-11-27 19:17:12,30.549s,FAILED
+Start tear down : tearDownTestCase,,,,2023-11-27 19:17:12,2023-11-27 19:17:12,0.002s,PASSED
+,,,,,,,
+Test Cases/Home Tab/Verify Home tab top navigation - Journey,,,,2023-11-27 19:17:12,2023-11-27 19:18:15,1m - 2.809s,PASSED
+"comment(""Test Case to execute - LIVING-T2110"")",,,,2023-11-27 19:17:12,2023-11-27 19:17:12,0.004s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 19:17:12,2023-11-27 19:17:12,0.003s,PASSED
+living.Common.startApplication(),,,,2023-11-27 19:17:12,2023-11-27 19:17:25,13.149s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 19:17:25,2023-11-27 19:17:25,0.006s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 19:17:25,2023-11-27 19:17:39,13.533s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-27 19:17:39,2023-11-27 19:17:43,4.590s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-11-27 19:17:43,2023-11-27 19:17:59,15.879s,PASSED
+"tap(findTestObject(""Object Repository/Living/Home Tab/Journey Icon - Top""), 0)",,,,2023-11-27 19:17:59,2023-11-27 19:18:00,0.982s,PASSED
+delay(G_minitimeout),,,,2023-11-27 19:18:00,2023-11-27 19:18:02,2.012s,PASSED
+"waitForElementPresent(findTestObject(""Living/Me Tab/lbl My Profile""), G_longtimeout)",,,,2023-11-27 19:18:02,2023-11-27 19:18:08,5.781s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 19:18:08,2023-11-27 19:18:08,0.003s,PASSED
+"verifyElementVisible(findTestObject(""Living/Me Tab/lbl My Profile""), G_minitimeout)",,,,2023-11-27 19:18:08,2023-11-27 19:18:08,0.242s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-27 19:18:08,2023-11-27 19:18:08,0.004s,PASSED
+delay(G_shorttimeout),,,,2023-11-27 19:18:08,2023-11-27 19:18:13,5.009s,PASSED
+closeApplication(),,,,2023-11-27 19:18:13,2023-11-27 19:18:15,1.531s,PASSED
+Start tear down : tearDownTestCase,,,,2023-11-27 19:18:15,2023-11-27 19:18:15,0.001s,PASSED

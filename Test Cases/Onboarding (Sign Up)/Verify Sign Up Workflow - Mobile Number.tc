@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Sign Up Workflow - Mobile Number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc3e7d40-59f1-448c-afc1-6d20db86f202</testCaseGuid>
+</TestCaseEntity>

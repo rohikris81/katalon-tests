@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Onboarrding,,,,2023-11-27 18:29:55,2023-11-27 18:31:17,1m - 21.642s,ERROR
+,,,,,,,
+Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements,,,,2023-11-27 18:29:55,2023-11-27 18:30:39,43.349s,FAILED
+"comment(""Test Case to execute - LIVING-T2001"")",,,,2023-11-27 18:29:56,2023-11-27 18:29:56,0.026s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 18:29:56,2023-11-27 18:29:56,0.005s,PASSED
+living.Common.startApplication(),,,,2023-11-27 18:29:56,2023-11-27 18:30:18,22.201s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 18:30:18,2023-11-27 18:30:18,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 18:30:18,2023-11-27 18:30:31,13.116s,PASSED
+"tap(findTestObject(""Living/btn Get Started""), 0)",,,,2023-11-27 18:30:31,2023-11-27 18:30:31,0.197s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-27 18:30:31,2023-11-27 18:30:31,0.006s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Onboarding/txt name""), 0)",,,,2023-11-27 18:30:31,2023-11-27 18:30:33,1.739s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Onboarding/txt email address""), 0)",,,,2023-11-27 18:30:33,2023-11-27 18:30:34,0.862s,FAILED
+Start tear down : tearDownTestCase,,,,2023-11-27 18:30:34,2023-11-27 18:30:39,5.014s,PASSED
+,,,,,,,
+Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email,,,,2023-11-27 18:30:39,2023-11-27 18:31:17,37.740s,ERROR
+"comment(""Test Case No. - LIVING-T1000"")",,,,2023-11-27 18:30:39,2023-11-27 18:30:39,0.004s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 18:30:39,2023-11-27 18:30:39,0.003s,PASSED
+living.Common.startApplication(),,,,2023-11-27 18:30:39,2023-11-27 18:30:56,17.046s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-27 18:30:56,2023-11-27 18:30:56,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-27 18:30:56,2023-11-27 18:31:09,13.534s,PASSED
+"tap(findTestObject(""Living/btn Get Started""), 0)",,,,2023-11-27 18:31:09,2023-11-27 18:31:10,0.176s,PASSED
+"waitForElementPresent(findTestObject(""Living/Onboarding/txt name""), G_longtimeout)",,,,2023-11-27 18:31:10,2023-11-27 18:31:11,1.584s,PASSED
+"sendKeys(findTestObject(""Living/Onboarding/txt name""), ""AutoUser"")",,,,2023-11-27 18:31:11,2023-11-27 18:31:11,0.240s,PASSED
+living.Elements.generaterandomemail(),,,,2023-11-27 18:31:11,2023-11-27 18:31:12,0.043s,ERROR
+Start tear down : tearDownTestCase,,,,2023-11-27 18:31:12,2023-11-27 18:31:17,5.012s,PASSED

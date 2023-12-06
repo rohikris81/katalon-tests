@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Onboarrding,,,,2023-11-27 18:29:52,2023-11-27 18:30:04,12.250s,FAILED
+,,,,,,,
+Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements,,,,2023-11-27 18:29:53,2023-11-27 18:29:59,6.225s,FAILED
+"comment(""Test Case to execute - LIVING-T2001"")",,,,2023-11-27 18:29:53,2023-11-27 18:29:53,0.041s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 18:29:53,2023-11-27 18:29:53,0.009s,PASSED
+living.Common.startApplication(),,,,2023-11-27 18:29:53,2023-11-27 18:29:54,0.873s,FAILED
+Start tear down : tearDownTestCase,,,,2023-11-27 18:29:54,2023-11-27 18:29:59,5.020s,PASSED
+,,,,,,,
+Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email,,,,2023-11-27 18:29:59,2023-11-27 18:30:04,5.194s,FAILED
+"comment(""Test Case No. - LIVING-T1000"")",,,,2023-11-27 18:29:59,2023-11-27 18:29:59,0.008s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-27 18:29:59,2023-11-27 18:29:59,0.009s,PASSED
+living.Common.startApplication(),,,,2023-11-27 18:29:59,2023-11-27 18:29:59,0.016s,FAILED
+Start tear down : tearDownTestCase,,,,2023-11-27 18:29:59,2023-11-27 18:30:04,5.013s,PASSED

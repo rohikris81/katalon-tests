@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Home Tab Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>728d50bc-acbc-4884-89a2-2bb793e06585</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76d6aed5-72b0-4608-84f4-eb6a62023fb4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'You may also like'</defaultValue>
+      <description></description>
+      <id>76d6aed5-72b0-4608-84f4-eb6a62023fb4</id>
+      <masked>false</masked>
+      <name>txt_maylike</name>
+   </variable>
+</TestCaseEntity>

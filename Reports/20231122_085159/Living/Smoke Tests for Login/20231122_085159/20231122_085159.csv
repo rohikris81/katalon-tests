@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Login,,,,2023-11-22 08:52:07,2023-11-22 08:55:44,3m - 37.391s,PASSED
+,,,,,,,
+Test Cases/Login Cases/Verify Login with correct credentials,,,,2023-11-22 08:52:07,2023-11-22 08:53:39,1m - 31.751s,PASSED
+"comment(""Test Case to execute - Verify Login with correct credentials"")",,,,2023-11-22 08:52:07,2023-11-22 08:52:07,0.058s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-22 08:52:07,2023-11-22 08:52:07,0.007s,PASSED
+living.Common.startApplication(),,,,2023-11-22 08:52:07,2023-11-22 08:52:36,28.453s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-22 08:52:36,2023-11-22 08:52:36,0.004s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-22 08:52:36,2023-11-22 08:52:52,15.752s,PASSED
+"living.Common.loginuser(G_memberusername, G_memberpassword)",,,,2023-11-22 08:52:52,2023-11-22 08:52:57,4.978s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-22 08:52:57,2023-11-22 08:52:57,0.007s,PASSED
+"verifyElementExist(findTestObject(""Living/lbl Todays Activities""), 0)",,,,2023-11-22 08:52:57,2023-11-22 08:53:08,11.066s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-22 08:53:08,2023-11-22 08:53:08,0.008s,PASSED
+living.Common.logoutuser(),,,,2023-11-22 08:53:08,2023-11-22 08:53:22,14.351s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-22 08:53:22,2023-11-22 08:53:22,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-22 08:53:22,2023-11-22 08:53:37,15.461s,PASSED
+closeApplication(),,,,2023-11-22 08:53:37,2023-11-22 08:53:39,1.379s,PASSED
+,,,,,,,
+Test Cases/Login Cases/Verify Login with wrong username,,,,2023-11-22 08:53:39,2023-11-22 08:54:24,44.870s,PASSED
+"comment(""Test Case to execute - Verify Login with correct credentials"")",,,,2023-11-22 08:53:39,2023-11-22 08:53:39,0.006s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-22 08:53:39,2023-11-22 08:53:39,0.004s,PASSED
+living.Common.startApplication(),,,,2023-11-22 08:53:39,2023-11-22 08:54:01,21.535s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-22 08:54:01,2023-11-22 08:54:01,0.004s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-22 08:54:01,2023-11-22 08:54:15,14.496s,PASSED
+"living.Common.loginuser(wrongusername, G_memberpassword)",,,,2023-11-22 08:54:15,2023-11-22 08:54:21,6.414s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-22 08:54:21,2023-11-22 08:54:21,0.005s,PASSED
+"verifyElementExist(findTestObject(""Living/btn Login""), 0)",,,,2023-11-22 08:54:21,2023-11-22 08:54:22,0.992s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-22 08:54:22,2023-11-22 08:54:22,0.004s,PASSED
+closeApplication(),,,,2023-11-22 08:54:22,2023-11-22 08:54:24,1.271s,PASSED
+,,,,,,,
+Test Cases/Login Cases/Verify Login with wrong password,,,,2023-11-22 08:54:24,2023-11-22 08:55:04,40.533s,PASSED
+"comment(""Test Case to execute - Verify Login with correct credentials"")",,,,2023-11-22 08:54:24,2023-11-22 08:54:24,0.005s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-22 08:54:24,2023-11-22 08:54:24,0.005s,PASSED
+living.Common.startApplication(),,,,2023-11-22 08:54:24,2023-11-22 08:54:42,17.792s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-22 08:54:42,2023-11-22 08:54:42,0.007s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-22 08:54:42,2023-11-22 08:54:56,14.220s,PASSED
+"living.Common.loginuser(G_memberusername, wrongpassword)",,,,2023-11-22 08:54:56,2023-11-22 08:55:01,5.084s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-22 08:55:01,2023-11-22 08:55:01,0.003s,PASSED
+"verifyElementExist(findTestObject(""Living/btn Login""), 0)",,,,2023-11-22 08:55:01,2023-11-22 08:55:03,2.276s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-22 08:55:03,2023-11-22 08:55:03,0.003s,PASSED
+closeApplication(),,,,2023-11-22 08:55:03,2023-11-22 08:55:04,1.008s,PASSED
+,,,,,,,
+Test Cases/Login Cases/Verify Login with wrong email format,,,,2023-11-22 08:55:04,2023-11-22 08:55:44,39.983s,PASSED
+"comment(""Test Case to execute - Verify Login with correct credentials"")",,,,2023-11-22 08:55:04,2023-11-22 08:55:04,0.004s,PASSED
+"comment(""Application is launching............."")",,,,2023-11-22 08:55:04,2023-11-22 08:55:04,0.003s,PASSED
+living.Common.startApplication(),,,,2023-11-22 08:55:04,2023-11-22 08:55:23,18.814s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-11-22 08:55:23,2023-11-22 08:55:23,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-11-22 08:55:23,2023-11-22 08:55:38,14.572s,PASSED
+"living.Common.loginuser(wrongemailformat, G_memberpassword)",,,,2023-11-22 08:55:38,2023-11-22 08:55:42,4.350s,PASSED
+"comment(""Asssertions started........."")",,,,2023-11-22 08:55:42,2023-11-22 08:55:42,0.004s,PASSED
+"verifyElementExist(findTestObject(""Living/lbl valid email id message""), 0)",,,,2023-11-22 08:55:42,2023-11-22 08:55:43,0.960s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-11-22 08:55:43,2023-11-22 08:55:43,0.003s,PASSED
+closeApplication(),,,,2023-11-22 08:55:43,2023-11-22 08:55:44,1.123s,PASSED

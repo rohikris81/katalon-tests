@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke Tests for Onboarrding" time="75.121" tests="2" failures="0" errors="1">
+   <testsuite name="Smoke Tests for Onboarrding" tests="2" failures="0" errors="1" time="75.121" skipped="0" timestamp="2023-11-27 18:39:19" hostname="rohitkrishna - localhost" id="Test Suites/Living/Smoke Tests for Onboarrding">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_183912/Living/Smoke Tests for Onboarrding/20231127_183912"/>
+         <property name="logFiles" value="/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_183912/Living/Smoke Tests for Onboarrding/20231127_183912/execution0.log, /Users/rohitkrishna/Documents/POProjects/LivingAppAuto/Reports/20231127_183912/Living/Smoke Tests for Onboarrding/20231127_183912/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rohitkrishna - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="sdk_gphone_x86_64"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86_64 - Android 13)"/>
+         <property name="deviceOSVersion" value="13"/>
+      </properties>
+      <testcase name="Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements" time="38.365" classname="Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements" status="PASSED">
+         <system-out><![CDATA[2023-11-27 18:39:20 - [TEST_CASE][PASSED] - Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements: Test Cases/Onboarding (Sign Up)/Verify Sign Up Screen Elements
+
+2023-11-27 18:39:20 - [TEST_STEP][PASSED] - comment("Test Case to execute - LIVING-T2001"): Test Case to execute - LIVING-T2001
+
+2023-11-27 18:39:20 - [MESSAGE][INFO] - Test Case to execute - LIVING-T2001
+
+2023-11-27 18:39:20 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:39:20 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:39:20 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:39:21 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 18:39:22 - [MESSAGE][INFO] - Appium server started on port 63,449
+
+2023-11-27 18:39:39 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:39:39 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:39:39 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:39:39 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:39:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:39:50 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:39:50 - [TEST_STEP][PASSED] - tap(findTestObject("Living/btn Get Started"), 0): Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:39:50 - [TEST_STEP][PASSED] - comment("Asssertions started........."): Asssertions started.........
+
+2023-11-27 18:39:50 - [MESSAGE][INFO] - Asssertions started.........
+
+2023-11-27 18:39:50 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/Onboarding/txt name"), 0): Element 'Object Repository/Living/Onboarding/txt name' is exist
+
+2023-11-27 18:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:39:52 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Onboarding/txt name' is exist
+
+2023-11-27 18:39:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/Onboarding/checkbox term One"), 0): Element 'Object Repository/Living/Onboarding/checkbox term One' is exist
+
+2023-11-27 18:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:39:52 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Onboarding/checkbox term One' is exist
+
+2023-11-27 18:39:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/Onboarding/checkbox term two"), 0): Element 'Object Repository/Living/Onboarding/checkbox term two' is exist
+
+2023-11-27 18:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:39:52 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Onboarding/checkbox term two' is exist
+
+2023-11-27 18:39:52 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Living/Onboarding/btn Sign Up"), 0): Element 'Object Repository/Living/Onboarding/btn Sign Up' is exist
+
+2023-11-27 18:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:39:52 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Onboarding/btn Sign Up' is exist
+
+2023-11-27 18:39:52 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Living/Onboarding/btn Sign Up"), "enabled", "false", G_shorttimeout): Object 'Object Repository/Living/Onboarding/btn Sign Up' has attribute 'enabled' with value 'false'
+
+2023-11-27 18:39:52 - [MESSAGE][PASSED] - Object 'Object Repository/Living/Onboarding/btn Sign Up' has attribute 'enabled' with value 'false'
+
+2023-11-27 18:39:52 - [TEST_STEP][PASSED] - comment("Asssertions closed........."): Asssertions closed.........
+
+2023-11-27 18:39:52 - [MESSAGE][INFO] - Asssertions closed.........
+
+2023-11-27 18:39:52 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2023-11-27 18:39:53 - [MESSAGE][PASSED] - Close app successfully
+
+2023-11-27 18:39:53 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:39:53 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:39:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:39:58 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email" time="36.192" classname="Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email" status="ERROR">
+         <error type="ERROR" message="Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []&#xa;"/>
+         <system-out><![CDATA[2023-11-27 18:39:58 - [TEST_CASE][ERROR] - Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email: Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []
+
+
+2023-11-27 18:39:58 - [TEST_STEP][PASSED] - comment("Test Case No. - LIVING-T1000"): Test Case No. - LIVING-T1000
+
+2023-11-27 18:39:58 - [MESSAGE][INFO] - Test Case No. - LIVING-T1000
+
+2023-11-27 18:39:58 - [TEST_STEP][PASSED] - comment("Application is launching............."): Application is launching.............
+
+2023-11-27 18:39:58 - [MESSAGE][INFO] - Application is launching.............
+
+2023-11-27 18:39:58 - [TEST_STEP][PASSED] - living.Common.startApplication(): living.Common.startApplication is PASSED
+
+2023-11-27 18:39:59 - [MESSAGE][INFO] - Detected NodeJS location: "/usr/local/bin/node"
+
+2023-11-27 18:40:00 - [MESSAGE][INFO] - Appium server started on port 63,675
+
+2023-11-27 18:40:13 - [MESSAGE][PASSED] - Started app at: '/Users/rohitkrishna/Documents/POProjects/LivingAppAuto/androidapp/rgstage.apk'
+
+2023-11-27 18:40:13 - [MESSAGE][PASSED] - living.Common.startApplication is PASSED
+
+2023-11-27 18:40:13 - [TEST_STEP][PASSED] - comment("Waiting for element presence..............."): Waiting for element presence...............
+
+2023-11-27 18:40:13 - [MESSAGE][INFO] - Waiting for element presence...............
+
+2023-11-27 18:40:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/btn Get Started"), G_longtimeout): Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:40:26 - [MESSAGE][PASSED] - Element 'Object Repository/Living/btn Get Started' is present
+
+2023-11-27 18:40:26 - [TEST_STEP][PASSED] - tap(findTestObject("Living/btn Get Started"), 0): Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:40:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-11-27 18:40:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Living/btn Get Started'
+
+2023-11-27 18:40:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Living/Onboarding/txt name"), G_longtimeout): Element 'Object Repository/Living/Onboarding/txt name' is present
+
+2023-11-27 18:40:29 - [MESSAGE][PASSED] - Element 'Object Repository/Living/Onboarding/txt name' is present
+
+2023-11-27 18:40:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Living/Onboarding/txt name"), "AutoUser"): Send keys 'AutoUser' on test object 'Object Repository/Living/Onboarding/txt name' successfully.
+
+2023-11-27 18:40:29 - [MESSAGE][PASSED] - Send keys 'AutoUser' on test object 'Object Repository/Living/Onboarding/txt name' successfully.
+
+2023-11-27 18:40:29 - [TEST_STEP][ERROR] - sendKeys(findTestObject("Object Repository/Living/Onboarding/txt Email Address"), living.Common.generaterandomn()): Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Sign Up Workflow - Email.run(Verify Sign Up Workflow - Email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701090552467.run(TempTestSuite1701090552467.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []
+
+
+2023-11-27 18:40:29 - [MESSAGE][ERROR] - No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []
+
+2023-11-27 18:40:29 - [MESSAGE][ERROR] - Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.throwError(CustomKeywordDelegatingMetaClass.java:101)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:73)
+	at Verify Sign Up Workflow - Email.run(Verify Sign Up Workflow - Email:38)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at TempTestSuite1701090552467.run(TempTestSuite1701090552467.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []
+
+
+2023-11-27 18:40:30 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2023-11-27 18:40:30 - [TEST_STEP][PASSED] - delay(G_shorttimeout): Delayed 5 second(s)
+
+2023-11-27 18:40:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2023-11-27 18:40:35 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[2023-11-27 18:39:58 - [TEST_CASE][ERROR] - Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email: Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-27 18:39:19 - [TEST_SUITE][ERROR] - Smoke Tests for Onboarrding: Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []]]></system-out>
+      <system-err><![CDATA[2023-11-27 18:39:19 - [TEST_SUITE][ERROR] - Smoke Tests for Onboarrding: Test Cases/Onboarding (Sign Up)/Verify Sign Up Workflow - Email FAILED.
+Reason:
+org.codehaus.groovy.runtime.metaclass.MissingMethodExceptionNoStack: No signature of method: living.Common.generaterandomn() is applicable for argument types: () values: []]]></system-err>
+   </testsuite>
+</testsuites>

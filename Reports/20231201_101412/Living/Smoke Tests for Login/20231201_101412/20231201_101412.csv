@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke Tests for Login,,,,2023-12-01 10:14:20,2023-12-01 10:18:26,4m - 6.063s,PASSED
+,,,,,,,
+Test Cases/Login/Verify Forgot Password,,,,2023-12-01 10:14:20,2023-12-01 10:15:20,59.864s,PASSED
+"comment(""Test Case No. - LIVING-T1008"")",,,,2023-12-01 10:14:21,2023-12-01 10:14:21,0.031s,PASSED
+"comment(""Application is launching............."")",,,,2023-12-01 10:14:21,2023-12-01 10:14:21,0.008s,PASSED
+living.Common.startApplication(),,,,2023-12-01 10:14:21,2023-12-01 10:14:49,28.566s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-12-01 10:14:49,2023-12-01 10:14:49,0.006s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-12-01 10:14:49,2023-12-01 10:15:02,12.334s,PASSED
+"tap(findTestObject(""Living/btn Get Started""), 0)",,,,2023-12-01 10:15:02,2023-12-01 10:15:02,0.244s,PASSED
+"tap(findTestObject(""Living/link Login""), 0)",,,,2023-12-01 10:15:02,2023-12-01 10:15:04,1.702s,PASSED
+"tap(findTestObject(""Object Repository/Living/btn Forgot Password""), 0)",,,,2023-12-01 10:15:04,2023-12-01 10:15:05,1.112s,PASSED
+"sendKeys(findTestObject(""Object Repository/Living/input username""), G_memberusername)",,,,2023-12-01 10:15:05,2023-12-01 10:15:08,3.332s,PASSED
+"tap(findTestObject(""Object Repository/Living/btn Reset Password""), 0)",,,,2023-12-01 10:15:08,2023-12-01 10:15:09,0.905s,PASSED
+"sendKeys(findTestObject(""Living/txt OTP Box 1""), ""9"")",,,,2023-12-01 10:15:09,2023-12-01 10:15:12,2.846s,PASSED
+"sendKeys(findTestObject(""Living/txt OTP Box 2""), ""9"")",,,,2023-12-01 10:15:12,2023-12-01 10:15:13,1.014s,PASSED
+"sendKeys(findTestObject(""Living/txt OTP Box 3""), ""9"")",,,,2023-12-01 10:15:13,2023-12-01 10:15:14,0.992s,PASSED
+"sendKeys(findTestObject(""Living/txt OTP Box 4""), ""9"")",,,,2023-12-01 10:15:14,2023-12-01 10:15:15,0.978s,PASSED
+"sendKeys(findTestObject(""Living/txt OTP Box 5""), ""9"")",,,,2023-12-01 10:15:15,2023-12-01 10:15:16,1.008s,PASSED
+"sendKeys(findTestObject(""Living/txt OTP Box 6""), ""9"")",,,,2023-12-01 10:15:16,2023-12-01 10:15:17,1.011s,PASSED
+"comment(""Asssertions started........."")",,,,2023-12-01 10:15:17,2023-12-01 10:15:17,0.009s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/btn Verify OTP""), 0)",,,,2023-12-01 10:15:17,2023-12-01 10:15:18,0.953s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/lbl Verification OTP Sent Confirmation""), 0)",,,,2023-12-01 10:15:18,2023-12-01 10:15:18,0.150s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-12-01 10:15:18,2023-12-01 10:15:18,0.004s,PASSED
+"tap(findTestObject(""Object Repository/Living/btn Verify OTP""), 0)",,,,2023-12-01 10:15:18,2023-12-01 10:15:18,0.265s,PASSED
+"comment(""Asssertions started........."")",,,,2023-12-01 10:15:18,2023-12-01 10:15:18,0.005s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-12-01 10:15:18,2023-12-01 10:15:18,0.008s,PASSED
+closeApplication(),,,,2023-12-01 10:15:18,2023-12-01 10:15:20,2.046s,PASSED
+Start tear down : tearDownTestCase,,,,2023-12-01 10:15:20,2023-12-01 10:15:20,0.003s,PASSED
+,,,,,,,
+Test Cases/Login/Verify Login with correct credentials - Email,,,,2023-12-01 10:15:20,2023-12-01 10:16:18,57.689s,PASSED
+"comment(""Test Case No. - LIVING-T1004"")",,,,2023-12-01 10:15:20,2023-12-01 10:15:20,0.006s,PASSED
+"comment(""Application is launching............."")",,,,2023-12-01 10:15:20,2023-12-01 10:15:20,0.006s,PASSED
+living.Common.startApplication(),,,,2023-12-01 10:15:20,2023-12-01 10:15:44,23.372s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-12-01 10:15:44,2023-12-01 10:15:44,0.007s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-12-01 10:15:44,2023-12-01 10:15:57,12.702s,PASSED
+"living.Elements.loginuser(G_memberusername, G_memberpassword)",,,,2023-12-01 10:15:57,2023-12-01 10:16:00,3.885s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), G_longtimeout)",,,,2023-12-01 10:16:00,2023-12-01 10:16:15,14.580s,PASSED
+"comment(""Asssertions started........."")",,,,2023-12-01 10:16:15,2023-12-01 10:16:15,0.008s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Living/Home Tab/lbl - Today Activities""), 0)",,,,2023-12-01 10:16:15,2023-12-01 10:16:16,1.368s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-12-01 10:16:16,2023-12-01 10:16:16,0.006s,PASSED
+closeApplication(),,,,2023-12-01 10:16:16,2023-12-01 10:16:18,1.547s,PASSED
+Start tear down : tearDownTestCase,,,,2023-12-01 10:16:18,2023-12-01 10:16:18,0.004s,PASSED
+,,,,,,,
+Test Cases/Login/Verify Login with wrong email format,,,,2023-12-01 10:16:18,2023-12-01 10:16:58,39.671s,PASSED
+"comment(""Test Case to execute - LIVING-T2007"")",,,,2023-12-01 10:16:18,2023-12-01 10:16:18,0.006s,PASSED
+"comment(""Application is launching............."")",,,,2023-12-01 10:16:18,2023-12-01 10:16:18,0.006s,PASSED
+living.Common.startApplication(),,,,2023-12-01 10:16:18,2023-12-01 10:16:37,18.428s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-12-01 10:16:37,2023-12-01 10:16:37,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-12-01 10:16:37,2023-12-01 10:16:51,14.019s,PASSED
+"living.Elements.loginuser(wrongemailformat, G_memberpassword)",,,,2023-12-01 10:16:51,2023-12-01 10:16:55,4.847s,PASSED
+"comment(""Asssertions started........."")",,,,2023-12-01 10:16:55,2023-12-01 10:16:55,0.007s,PASSED
+"verifyElementExist(findTestObject(""Living/lbl valid email id message""), 0)",,,,2023-12-01 10:16:55,2023-12-01 10:16:56,0.902s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-12-01 10:16:56,2023-12-01 10:16:56,0.005s,PASSED
+closeApplication(),,,,2023-12-01 10:16:56,2023-12-01 10:16:58,1.302s,PASSED
+Start tear down : tearDownTestCase,,,,2023-12-01 10:16:58,2023-12-01 10:16:58,0.002s,PASSED
+,,,,,,,
+Test Cases/Login/Verify Login with wrong password,,,,2023-12-01 10:16:58,2023-12-01 10:17:42,44.688s,PASSED
+"comment(""Test Case to execute - LIVING-T2007"")",,,,2023-12-01 10:16:58,2023-12-01 10:16:58,0.006s,PASSED
+"comment(""Application is launching............."")",,,,2023-12-01 10:16:58,2023-12-01 10:16:58,0.005s,PASSED
+living.Common.startApplication(),,,,2023-12-01 10:16:58,2023-12-01 10:17:18,20.408s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-12-01 10:17:18,2023-12-01 10:17:18,0.006s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-12-01 10:17:18,2023-12-01 10:17:31,12.923s,PASSED
+"living.Elements.loginuser(G_memberusername, wrongpassword)",,,,2023-12-01 10:17:31,2023-12-01 10:17:36,5.117s,PASSED
+"comment(""Asssertions started........."")",,,,2023-12-01 10:17:36,2023-12-01 10:17:36,0.006s,PASSED
+"verifyElementExist(findTestObject(""Living/btn Login""), 0)",,,,2023-12-01 10:17:36,2023-12-01 10:17:40,3.926s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-12-01 10:17:40,2023-12-01 10:17:40,0.008s,PASSED
+closeApplication(),,,,2023-12-01 10:17:40,2023-12-01 10:17:42,2.049s,PASSED
+Start tear down : tearDownTestCase,,,,2023-12-01 10:17:42,2023-12-01 10:17:42,0.002s,PASSED
+,,,,,,,
+Test Cases/Login/Verify Login with wrong username,,,,2023-12-01 10:17:42,2023-12-01 10:18:26,43.370s,PASSED
+"comment(""Test Case to execute - LIVING-T2007"")",,,,2023-12-01 10:17:42,2023-12-01 10:17:42,0.006s,PASSED
+"comment(""Application is launching............."")",,,,2023-12-01 10:17:42,2023-12-01 10:17:42,0.006s,PASSED
+living.Common.startApplication(),,,,2023-12-01 10:17:42,2023-12-01 10:18:02,19.191s,PASSED
+"comment(""Waiting for element presence..............."")",,,,2023-12-01 10:18:02,2023-12-01 10:18:02,0.005s,PASSED
+"waitForElementPresent(findTestObject(""Living/btn Get Started""), G_longtimeout)",,,,2023-12-01 10:18:02,2023-12-01 10:18:18,16.374s,PASSED
+"living.Elements.loginuser(wrongusername, G_memberpassword)",,,,2023-12-01 10:18:18,2023-12-01 10:18:23,5.225s,PASSED
+"comment(""Asssertions started........."")",,,,2023-12-01 10:18:23,2023-12-01 10:18:23,0.035s,PASSED
+"verifyElementExist(findTestObject(""Living/btn Login""), 0)",,,,2023-12-01 10:18:23,2023-12-01 10:18:24,0.880s,PASSED
+"comment(""Asssertions closed........."")",,,,2023-12-01 10:18:24,2023-12-01 10:18:24,0.003s,PASSED
+closeApplication(),,,,2023-12-01 10:18:24,2023-12-01 10:18:26,1.504s,PASSED
+Start tear down : tearDownTestCase,,,,2023-12-01 10:18:26,2023-12-01 10:18:26,0.002s,PASSED

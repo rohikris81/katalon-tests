@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Feed Section Workflow - Morning</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e05ea7ac-7a0c-46e3-9fee-eb338239aba2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da28db3c-318b-4601-b138-5dafac07fff2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'You may also like'</defaultValue>
+      <description></description>
+      <id>da28db3c-318b-4601-b138-5dafac07fff2</id>
+      <masked>false</masked>
+      <name>txt_maylike</name>
+   </variable>
+</TestCaseEntity>

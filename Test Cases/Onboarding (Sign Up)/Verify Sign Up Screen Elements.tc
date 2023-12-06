@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Sign Up Screen Elements</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5382a67b-5650-42da-9470-a21411990233</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>462371a5-042f-414d-83f0-9753755e8965</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Wgjdon@987'</defaultValue>
+      <description></description>
+      <id>462371a5-042f-414d-83f0-9753755e8965</id>
+      <masked>false</masked>
+      <name>wrongpassword</name>
+   </variable>
+</TestCaseEntity>
